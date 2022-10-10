@@ -18,7 +18,11 @@ print(numeros)
 
 if 5 in numeros:
     print(f"O numero 5 foi digitado {numeros.count(5)}x! nas posições: ", end='')
+else:
+    print("Valor 5 não foi encontrado")
 
 for pos,v in enumerate(numeros):
     if v == 5:
         print(f"{pos}-1 ",end='')
+
+

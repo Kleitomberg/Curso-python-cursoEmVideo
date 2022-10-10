@@ -34,4 +34,31 @@ for i in range(0,5):
 
 print(numeros)
 
+print("RESPOSTA DO VIDEO")
+
+
+numeros = []
+
+for i in range(0,5):
+
+    valor = int(input(f"Digite um valor: "))
+
+    if i == 0 or valor > numeros[-1]: #se for o primeiro ou maior que o ultimo
+        print("valor adicionado ao final lista...")
+        numeros.append(valor)
+
+    else:
+        pos = 0
+        while pos < len(numeros):
+            if valor <= numeros[pos]:
+                numeros.insert(pos,valor)
+                print(f"Valor adicionado na posição {pos} da lista")
+                break
+            pos+=1
+print(f"\nOs valores digitados foram {numeros}")
+
+
+
+
+
 
