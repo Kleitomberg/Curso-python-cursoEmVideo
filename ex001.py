@@ -1,0 +1,6 @@
+print(" ")
+print("==== DESAFIO 01 ====")
+print(" ")
+nome=input("Digite seu nome: ")
+idade=input("Digite sua idade: ")
+print(" Seja bem vindo(a)", nome, 'Idade:', idade)
