@@ -49,11 +49,14 @@ while True:
     print("__"*40)
 
     jog = int(input("Mostrar dados de  qual jogadoor? (999 = parar): "))
-
-    print(f"-- Dados do jogador {time[jog]['nome']}")
-
-    for i,gols in enumerate(time[jog]['gols']):
-        print(f"Na partida {i+1} Marcou {gols} gols")
-
-    if jog =='999':
+    if jog == 999:
         break
+    if jog >= len(time):
+        print("Jogador Não existe na lista!")
+    else:
+        print(f"-- Dados do jogador {time[jog]['nome']}")
+
+        for i,gols in enumerate(time[jog]['gols']):
+            print(f"Na partida {i+1} Marcou {gols} gols")
+
+
