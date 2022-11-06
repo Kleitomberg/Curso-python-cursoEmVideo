@@ -1,2 +1,9 @@
 # Curso-python-cursoEmVideo
-Exercicios respondidos
+Exercicios Respondidos
+
+## Resumo do curso:
+
+- 3 Modulos
+- 23 aulas
+- 120 Exercicios
+- 120 Horas
